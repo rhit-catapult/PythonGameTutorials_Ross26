@@ -1,17 +1,19 @@
 # Concept Card Menu
 
-This is not a tutorial you do in order. Each file below is a **standalone,
+This is not a tutorial you have to do in order. Files 02-16 below is a **standalone,
 runnable** mini-game that teaches ONE thing. Run it, read it, mess with the
 TODOs, then decide if your project needs that skill. If it does, build it
 into your game. If it doesn't, skip it.
 
+If you are new to programming, start with Python basics with files in 01-IntroToPython.
+If you have prior experience, you can probably skip these.
+
 How to use these:
-1. `python3 01_game_loop.py` (or whichever file) — see it work first.
-2. Read the comments. Look at the "TRY THIS" section.
-3. Do the TODOs *in your head first* — what values would you guess? Then
-   try them.
+1. `02_shapes_and_drawing.py` (or whichever file), run and see it work first.
+2. Read the comments. Try to understand what the code is doing.
+3. Do the TODOs 
 4. Once it clicks, go copy the pattern into YOUR game file. Don't keep
-   working in the card file — the card is scratch paper, your game is the
+   working in the card file. The card is scratch paper, your game is the
    real thing.
 
 You do not need to finish every card. You do not need to do them in
@@ -19,7 +21,7 @@ order. Pick based on what your game needs.
 
 | Card | Teaches | You probably need this if your game has... |
 |---|---|---|
-| 01_game_loop.py | the loop + event queue (already covered day 1) | literally every game |
+| 01_IntroToPython | Walks through the basics of programming with Python | every game |
 | 02_shapes_and_drawing.py | pygame.draw shapes, colors, layering | any custom-drawn character/object |
 | 03_keyboard_movement.py | held-key movement vs. single-press events | a player you move with keys |
 | 04_mouse_input.py | mouse position, clicks, hover | a game you click/point at |
@@ -34,6 +36,7 @@ order. Pick based on what your game needs.
 | 13_classes_and_objects.py | writing your own class, `self`, `__init__`, methods | more than one KIND of game object (player + enemies + coins...) |
 | 14_projectiles.py | the fire-a-bullet pattern (event + list + movement + cleanup) | shooting, throwing, or launching anything |
 | 15_enemy_formation_movement.py | bounce-and-descend movement for a whole row/group | a group of enemies that move together, Space-Invaders style |
+| 16_multiple_files | Walks through how to split large game projects into multiple files | your big game |
 
 Cards 13-15 build on the earlier ones — do 05 (collision) and 09 (lists)
 before 13 or 14 if you haven't already, since they reuse those patterns.
@@ -44,9 +47,9 @@ list of random enemies with a timer = cards 06 + 09 + 12).
 
 ## When you're stuck
 1. Read the error message. What line? What's it telling you?
-2. Check the API hint comment in the card — is your syntax matching it?
-3. Ask a neighbor before a TA.
-4. Ask a TA and explain what you already tried.
+2. Check the API hint comment in the card. Is your syntax matching it?
+3. Feel free to ask a friend
+4. Ask me anything!
 
 We are not going to lecture at the front of the room. If three+ people
 have the same question, we'll pause and do a 2-minute mini-demo, but
