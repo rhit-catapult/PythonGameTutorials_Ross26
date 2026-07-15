@@ -1,9 +1,8 @@
 # How to Prompt AI for Game Code
 
-Using AI to help write your game is fine — it's a real skill, and this
+Using AI to help write your game is fine. It's a real skill, and this
 guide is here to make sure it's actually building understanding instead
-of replacing it. Don't forget: the **explain-back rule** in the AI track
-addendum still applies to everything below.
+of replacing it. 
 
 ## The core problem with bad AI prompts
 
@@ -17,8 +16,8 @@ piece at a time.
 
 **1. One concept at a time.**
 Ask for movement. Get it working. Ask for collision. Get it working.
-Don't ask for "movement, collision, scoring, and sound" in one prompt —
-you'll get code you can't trace back to understand, and when it breaks
+Don't ask for "movement, collision, scoring, and sound" in one prompt.
+You'll get code you can't understand, and when it breaks
 you won't know where.
 
 **2. Paste your actual code, not a description of it.**
@@ -30,22 +29,23 @@ reconcile with yours.
 
 **3. Ask for the smallest version first.**
 "Just get one bullet firing and moving, don't worry about removing it
-off-screen yet" — get that working, see it, THEN ask for the cleanup
+off-screen yet". Get that working, see it, THEN ask for the cleanup
 step. Small verified steps beat one big untested block.
 
 **4. When it breaks, paste the real error.**
 "It doesn't work" gets you nowhere. Paste the actual error message and
-the line number. AI is very good at reading tracebacks — use that.
+the line number. AI is very good at reading tracebacks, use that. If it
+doesn't do what you want, explain what it does that you do not like along
+with what you do.
 
 **5. Ask it to explain, not just generate.**
 Add "explain what this code does, line by line" to your prompt, or ask
-afterward: "explain this back to me like I'm new to Python." If you
-can't repeat the explanation in your own words to a TA, you're not done
-with that piece yet — go back and ask follow-up questions until you can.
+afterward: "explain this back to me like I'm new to Python." This will
+help when it comes to debugging and building larger systems.
 
 ## Example prompts, by concept card
 
-Use these as a starting point — copy your own code in before running
+Use these as examples. Copy your own code in before running
 them for real.
 
 **Movement (card 03)**
@@ -114,9 +114,3 @@ them for real.
 > Invaders. Here's my Enemy class [paste]. Show me the movement logic and
 > explain how one rule makes them look coordinated."
 
-## The debugging checkpoint still applies
-
-Remember: at least once during the camp, you'll get a small broken file
-and 15 minutes to fix it WITHOUT AI. That's not about slowing you down —
-it's the only way to know the speed you're getting from AI is standing
-on top of real understanding, not instead of it.
